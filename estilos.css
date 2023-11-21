@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Glass+Antiqua&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*  Video  */
+
+
+.HeroHeader_video__eXgec {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: -10;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #000000;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menuItem {
+  text-decoration: none;
+  color: #000000;
+  margin: 0 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.menuItem:hover {
+  color: #f5ef97;
+}
+
+.ctaButton {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.ctaButton:hover {
+  background-color: #f5ef97;
+}
+.upbrand{
+  width: 200px;
+  height: auto;
+}
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+.div1{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  gap: 50px;
+  margin-top:80px ;
+}
+.pamemua{
+  width: auto;
+  height: 70vh;
+}
+.textodiv1, .textodiv2, .textodiv3, .textodiv4{
+  width: 45vw;
+  height: auto;
+  font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Glass Antiqua', cursive;
+font-size: 30px;
+
+}
+.div2{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  width: 100%;
+  gap: 50px;
+  margin-top:80px ;
+}
+.div3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+
+}
+.fotos4{
+  width: auto;
+  height: 60vh;
+}
+.cajatexto3, .cajatexto4{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom:80px;
+
+}
+.textodiv3, .textodiv4{
+  width: 90%;
+  text-align: center;
+}
+article{
+  margin-top: 80px;
+}
+.reelscontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+
+  }
+  .redes{
+    width: 50px;
+    height: 50px;
+  }
+  .wsp{
+    width: 70px;
+    height: 70px;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    background-color: #f2f2f2; /* Puedes cambiar el color de fondo según tu preferencia */
+    padding: 20px;
+}
