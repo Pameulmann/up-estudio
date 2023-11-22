@@ -26,6 +26,7 @@ body {
 
 .topbar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
@@ -83,6 +84,7 @@ body {
 }
 .div1{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
   width: 100%;
@@ -93,7 +95,7 @@ body {
   width: auto;
   height: 70vh;
 }
-.textodiv1, .textodiv2, .textodiv3, .textodiv4{
+.textodiv1, .textodiv2, .textodiv3, .textodiv4, .textodiv5{
   width: 45vw;
   height: auto;
   font-family: 'Edu TAS Beginner', cursive;
@@ -104,6 +106,7 @@ font-size: 30px;
 .div2{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   flex-direction: row-reverse;
   width: 100%;
   gap: 50px;
@@ -138,6 +141,7 @@ article{
 }
 .reelscontainer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 80px;
 
@@ -152,11 +156,12 @@ article{
   }
   footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-top: 80px;
-    background-color: #f2f2f2; /* Puedes cambiar el color de fondo según tu preferencia */
+    background-color: #f2f2f2; 
     padding: 20px;
 }
+
